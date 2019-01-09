@@ -5,7 +5,7 @@ print('write Fibonacci series using while loop ')
 a, b = 0, 1
 while a <= 20:
     print(' The value of a is ', a)
-    a, b = b, a+ b
+    a, b = b, a + b
 
 print('write Fibonacci series using functions ')
 
@@ -18,5 +18,20 @@ def fib(n):    # write Fibonacci series up to n
     print()
 
 
+def fib2(num):
+    result = []
+
+    x, y = 0, 1
+    while x < num:
+        result.append(x)
+        x, y = y, x+y
+    return result
+
+
 fib(50)
 
+
+fibResult = fib2(50)
+
+
+print(fibResult)
