@@ -1,4 +1,4 @@
-# Fibonacci series:
+# Fibonacci series In Python:
 # the sum of two elements defines the next element
 
 a, b = 0, 1
