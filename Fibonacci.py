@@ -6,7 +6,5 @@ while a <= 50:
     print(' The value of a is ', a)
     a, b = b, a+ b
 
-if 8>5:
-    print('ww')
 
 print('end of Fibonacci series')
