@@ -1,5 +1,5 @@
 # Fibonacci series:
-# the sum of two elements defines the next
+# the sum of two elements defines the next element
 
 a, b = 0, 1
 while a <= 50:
@@ -9,4 +9,4 @@ while a <= 50:
 if 8>5:
     print('ww')
 
-print('end of series')
+print('end of Fibonacci series')
