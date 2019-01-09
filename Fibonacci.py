@@ -28,6 +28,10 @@ def fib2(num):
     return result
 
 
+def concat(*args, sep="/"):
+    return sep.join(args)
+
+
 fib(50)
 
 
@@ -35,3 +39,5 @@ fibResult = fib2(50)
 
 
 print(fibResult)
+
+print(concat("earth", "moon", "mars"))
