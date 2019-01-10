@@ -4,8 +4,17 @@
 
 import array as arr
 
-a = arr.array('d', [1.0, 3.5, 5.5])
+a = arr.array('i', [2, 4, 6, 8])
+b = arr.array('i', [61, 62, 65])
+
+print("First Element:", a[0])
+print("Second Element:", a[1])
+a[1] = 99
+a.append(780)
+a.extend([5, 6, 7])
 print(a)
+
+print(a+b)
 
 '''
     y = 6
