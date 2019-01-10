@@ -1,4 +1,5 @@
 # NumPy Array
+# https://docs.scipy.org/doc/numpy-1.15.1/user/quickstart.html
 # NumPy is a package for scientific computing which has support for a powerful N-dimensional
 # array object.
 
@@ -19,11 +20,7 @@ mat2 = np.array(B)
 # Addition of two matrices using numpy
 print(mat1 + mat2)
 
-
-
-
 # transpose of a matrix using numpy
-
 print("Matrix :")
 print(mat1)
 
