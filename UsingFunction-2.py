@@ -6,8 +6,9 @@ def morethanfive(*username):
             result.append(name)
     return result
 
+
 # function that return count of names whose length is greater than 5
-def countnamelenghtgreaterfive(*username):
+def name_gt_five_char(*username):
     # ls = ["true", "true", "false"]
     # print(ls.count("true"))
     return [len(name) > 4 for name in username].count(True)
@@ -34,6 +35,6 @@ neon = 5
 
 print('Factorial of {0} is'.format(neon), fact(neon))
 
-print("Name with maximum five characters", morethanfive("manuj", "anuj", "tanuj", "kaka", "rajkishore"))
+print("Name with maximum five characters", morethanfive("manoj", "anuj", "tanuj", "kaka", "rajkishore"))
 
-print("Total name have more than five characters", countnamelenghtgreaterfive("manuj", "anuj", "tanuj", "kaka", "rajkishore"))
+print("Total name have more than five characters", name_gt_five_char("manoj", "anuj", "tanuj", "kaka", "rajkishore"))
